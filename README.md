@@ -6,17 +6,17 @@ To preserve the temporal nature of the dataset and avoid data leakage, the proje
 Three different models are implemented and compared: a Multi-Layer Perceptron (MLP), a Linear Regression model implemented as a single-layer neural network, and a Deep Neural Network (DNN). Each model is trained using the Adam optimizer with a learning rate of 0.01 over 100 epochs, optimizing primarily for Mean Squared Error (MSE). The training process includes tracking both training and validation loss across epochs, allowing clear visibility into model convergence and potential overfitting. Additionally, PyTorch forward hooks are used to analyze activation distributions across layers, offering deeper interpretability into how the neural network processes data internally.
 
 ## 🔷 Key Highlights
-- 📊 Advanced EDA (pairplots, heatmaps, distributions)
-- 🧹 Data preprocessing (missing values, outliers, normalization)
-- 🧠 Feature engineering (polynomial features, correlation filtering)
-- 🔁 TimeSeries-aware validation using TimeSeriesSplit
-- ⚙️ Multiple models:
+-  Advanced EDA (pairplots, heatmaps, distributions)
+-  Data preprocessing (missing values, outliers, normalization)
+-  Feature engineering (polynomial features, correlation filtering)
+-  TimeSeries-aware validation using TimeSeriesSplit
+-  Multiple models:
 1. MLP (Multi-Layer Perceptron)
 2. Linear Regression (Neural equivalent)
 3. Deep Neural Network (DNN)
-- 📉 Loss tracking (Train vs Validation)
-- 🏆 Best model selection based on validation loss
-- 📈 Prediction vs Actual visualization
+-  Loss tracking (Train vs Validation)
+-  Best model selection based on validation loss
+-  Prediction vs Actual visualization
 
 ## Exploratory Data Analysis (EDA)
 - Pairplots → feature relationships
